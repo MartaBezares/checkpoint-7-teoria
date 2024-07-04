@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pregunta 7</title>
+    <link rel="stylesheet" href="css/preguntas.css">
+</head>
+<body>
+
+    <header>
+        <div class="inicio">
+            <a href="index.html"><h3>Inicio</h3></i></a>
+        </div>
+        <div class="texto">
+            <h1>¿Qué es la palabra clave "this" en JS?</h1>
+        </div>
+        <div class="siguiente"></div>
+    </header>
+    
+    <main>
+        <div class="contenedor-respuestas">
+            <div class="respuesta">
+                <p>La palabra clave "this" se usa para referirse al objeto que está dentro de la función que se está ejecutando. Dependiendo del contexto, "this" puede significar diferentes cosas, dependiendo de dónde y cómo se usa. Vamos a ver las distintas formas de usarlo para aclararlo.</p>
+                <ol>
+                    <li>Dentro de un objeto:
+                        <ul>
+                            <li><p>Cuando "this" se usa dentro de un método de un objeto, se refiere a ese objeto.</p></li>
+                            <li><p>Ejemplo:</p>
+                                <img src="imagenes/this-objeto.jpg">
+                                <p>Aquí, "this.nombre" se refiere al objeto persona.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>En una función global:
+                        <ul>
+                            <li><p>Cuando "this" se usa dentro de una función, fuera de cualquier objeto, se refiere al objeto global.</p></li>
+                            <li><p>Ejemplo:</p>
+                                <img src="imagenes/this-funcion.jpg">
+                            </li>
+                        </ul>
+                    </li>
+                    <li>En un evento de un elemento HTML:
+                        <ul>
+                            <li><p>Cuando "this" se usa en una función que responde a un evento, se refiere al elemento HTML que recibió el evento.</p></li>
+                            <li><p>Ejemplo:</p>
+                                <img src="imagenes/this-html.jpg">
+                            </li>
+                        </ul>
+                    </li>
+                    <li>En una función constructora:
+                        <ul>
+                            <li><p>Cuando se usa "this" en una función que crea objetos (una constructora), se refiere a la nueva instancia del objeto que se está creando.</p></li>
+                            <li><p>Ejemplo:</p>
+                                <img src="imagenes/this-constructor.jpg">
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+                 
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <div><p>Ejercicio creado por Marta Bezares para la universidad de Bottega.</p></div>
+    </footer>
+    
+</body>
+</html>

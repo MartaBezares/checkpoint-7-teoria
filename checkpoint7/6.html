@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pregunta 6</title>
+    <link rel="stylesheet" href="css/preguntas.css">
+</head>
+<body>
+
+    <header>
+        <div class="inicio">
+            <a href="index.html"><h3>Inicio</h3></i></a>
+        </div>
+        <div class="texto">
+            <h1>¿Cuál es la diferencia entre una declaración de función y una expresión de función?</h1>
+        </div>
+        <div class="siguiente">
+            <a href="7.html"><h3>Siguiente<br/> pregunta</h3></a>
+        </div>
+    </header>
+    
+    <main>
+        <div class="contenedor-respuestas">
+            <div class="respuesta">
+                <p>La principal diferencia entre una declaración de función y una expresión de función en JavaScript es cómo y cuándo puedes usar la función en tu código. Las declaraciones de función se elevan y pueden ser llamadas en cualquier parte del código, mientras que las expresiones de función no se elevan y deben ser definidas antes de ser llamadas.</p>
+                <ul>
+                    <li>
+                        <p>Una declaración de función es una forma de definir una función con un nombre específico. Se puede llamar a esta función en cualquier parte del código, incluso antes de la línea donde se define, debido a un comportamiento de JavaScript llamado hoisting (elevación).</p>
+                        <img src="imagenes/declaracion-funcion.jpg">
+                        <p>En este ejemplo, hemos creado la declaración y la hemos llamado saludar:</p>
+                        <p>function saludar() { ... }</p> 
+                        <p>Ahora podemos llamar a la función saludar() en cualquier parte del código.</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <p>Una expresión de función implica definir una función que puede ser anónima y asignarla a una variable. A diferencia de las declaraciones de función, las expresiones de función no se elevan, lo que significa que no puedes llamarlas antes de la línea donde se definen.</p>
+                        <img src="imagenes/expresion-funcion.jpg">
+                        <p>En este otro ejemplo, hemos creado una variable llamada saludar y hemos definido la función sin nombre y se la hemos asignado a la variable:</p> 
+                        <p>const saludar = function() { ... }</p>
+                        <p>Puedes llamar a saludar() solo después de la línea donde se define.</p> 
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <div><p>Ejercicio creado por Marta Bezares para la universidad de Bottega.</p></div>
+    </footer>
+    
+</body>
+</html>
